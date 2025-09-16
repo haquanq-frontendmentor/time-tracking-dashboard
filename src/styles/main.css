@@ -1,0 +1,21 @@
+@import "./base/fonts.css";
+@import "./base/variables.css";
+@import "./base/reset.css";
+
+@import "./components/tracking-filter.css";
+@import "./components/tracking.css";
+
+@import "./utils/a11y.css";
+
+.main__container {
+    min-height: 100vh;
+    background-color: var(--color-blue-900);
+    color: var(--color-blue-100);
+    font-family: var(--font-primary);
+    font-size: var(--text-sm-2);
+    padding-block: 5.0625rem;
+
+    @media (--laptop) {
+        padding-block: 15.8125rem;
+    }
+}

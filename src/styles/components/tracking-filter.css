@@ -1,0 +1,56 @@
+.tracking-filter {
+    border: none;
+    padding-block: 1rem;
+    padding-inline: 1.5rem 0.875rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+    color: var(--color-blue-300);
+
+    @media (--laptop) {
+        flex-direction: column;
+        padding-block-start: 1.125rem;
+    }
+
+    &__option {
+        cursor: pointer;
+        position: relative;
+        font-size: var(--text-md);
+        border-radius: var(--rounded-sm);
+        width: fit-content;
+    }
+
+    &__input {
+        position: absolute;
+        opacity: 0;
+    }
+
+    &__label {
+        display: block;
+        padding-block: 0.625rem;
+        padding-inline: 0.5rem;
+        border-radius: inherit;
+        transition: background-color 200ms ease;
+        width: fit-content;
+
+        @media (prefers-reduced-motion: reduce) {
+            transition: none;
+        }
+    }
+
+    &__input:checked + &__label {
+        display: block;
+        color: var(--color-white);
+    }
+
+    &__input:focus-visible + &__label {
+        color: var(--color-white);
+        outline: 2px dashed var(--color-white);
+    }
+
+    @media (hover: hover) {
+        &__option:hover &__label {
+            background-color: var(--color-blue-900);
+        }
+    }
+}

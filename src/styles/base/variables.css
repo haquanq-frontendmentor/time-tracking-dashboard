@@ -1,0 +1,50 @@
+:root {
+    --color-orange-300: hsl(15, 100%, 70%);
+    --color-ocean-300: hsl(195, 74%, 62%);
+    --color-red-500: hsl(348, 100%, 68%);
+    --color-lime-300: hsl(145, 58%, 55%);
+    --color-violet-500: hsl(264, 64%, 52%);
+    --color-yellow-300: hsl(43, 84%, 65%);
+
+    --color-blue-100: hsl(236, 100%, 87%);
+    --color-blue-300: hsl(235, 45%, 61%);
+    --color-blue-500: hsl(246, 80%, 60%);
+    --color-blue-600: hsl(236, 41%, 34%);
+    --color-blue-700: hsl(235, 46%, 20%);
+    --color-blue-900: hsl(226, 43%, 10%);
+
+    --color-white: hsl(0, 0%, 100%);
+
+    --shadow-sm: rgba(0, 0, 0, 10%) 0px 10px 32px 0px, rgba(0, 0, 0, 3%) 0px 0px 0px 1px;
+
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-sm-2: 0.9375rem;
+    --text-base: 1rem;
+    --text-md: 1.125rem;
+    --text-lg: 1.5rem;
+    --text-xl: 2rem;
+    --text-xl-1: 2.5rem;
+    --text-xl-2: 3.5rem;
+
+    --font-primary: "Rubik", sans-serif;
+    --font-thin: 300;
+    --font-normal: 400;
+    --font-medium: 500;
+
+    --leading-lg: 1.5rem;
+    --leading-xl: 2rem;
+    --leading-xl-2: 3rem;
+
+    --leading-none: 1;
+
+    --rounded-full: 9999px;
+    --rounded-sm: 0.25rem;
+    --rounded-base: 0.5rem;
+    --rounded-md: 0.75rem;
+    --rounded-lg: 1rem;
+}
+
+@custom-media --mobile (min-width: 37.5em);
+@custom-media --tablet (min-width: 56em);
+@custom-media --laptop (min-width: 70em);
