@@ -1,0 +1,15 @@
+{
+  "name": "Time Tracking Dashboard",
+  "featured": false,
+  "colors:": {
+    "brand": "#0D1323"
+  },
+  "images": {
+    "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/time-tracking-dashboard/main/docs/preview.jpg"
+  },
+  "frontendmentor": {
+    "difficulty": "junior",
+    "challengeUrl": "https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw",
+    "solutionUrl": "https://www.frontendmentor.io/solutions/responsive-time-tracking-dashboard-w-html-and-css-grid-and-js-tkc_S2o02g"
+  }
+}
